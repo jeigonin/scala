@@ -1,4 +1,4 @@
-package com.fakir.samples.models;
+package simplePackage
 
 case class Cat(name : String, race : String, age: Int) {
 
