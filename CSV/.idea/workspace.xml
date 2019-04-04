@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c052934f-10c7-40c9-9216-3307f4337fa9" name="Default Changelist" comment="First commit">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_8_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/simplePackage/Car.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/simplePackage/Person.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/CSV-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/CSV-build.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/CSV.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/CSV.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/simplePackage/Cat.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/simplePackage/Cat.scala" afterDir="false" />
-    </list>
+    <list default="true" id="c052934f-10c7-40c9-9216-3307f4337fa9" name="Default Changelist" comment="First commit" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -46,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/Program.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+              <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -169,7 +160,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554325917027" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554326546693" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -244,7 +235,7 @@
       <updated>1554240528765</updated>
       <workItem from="1554240530101" duration="475000" />
       <workItem from="1554317687619" duration="4611000" />
-      <workItem from="1554325006693" duration="899000" />
+      <workItem from="1554325006693" duration="1307000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1554319105785</created>
@@ -264,7 +255,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5985000" />
+    <option name="totallyTimeSpent" value="6393000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -410,7 +401,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/Program.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+          <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
         </state>
       </provider>
     </entry>
