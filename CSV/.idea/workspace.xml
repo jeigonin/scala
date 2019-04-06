@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/scala/simpleaPackage/Program.scala" line="10" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="c052934f-10c7-40c9-9216-3307f4337fa9" name="Default Changelist" comment="First commit" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -35,14 +32,46 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/simpleaPackage/Program.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/Program.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+            <state relative-caret-position="210">
+              <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/simplePackage/Person.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/simplePackage/Car.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/simplePackage/Film.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/simplePackage/Actor.scala">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -55,7 +84,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -63,6 +92,13 @@
         <option value="$PROJECT_DIR$/src/main/scala/samples/models/old/Animal.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/CSV/group5/package.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/simpleaPackage/Program.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/simplePackage/package.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/simplePackage/Cat.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/simplePackage/Person.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/simplePackage/Car.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/simplePackage/Actor.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/simplePackage/Film.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/Program.scala" />
       </list>
     </option>
   </component>
@@ -72,21 +108,60 @@
     <option name="width" value="840" />
     <option name="height" value="1027" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CSV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSV" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CSV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSV" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CSV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSV" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CSV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSV" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CSV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSV" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="simplePackage" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554323433045" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554326546693" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -124,7 +199,7 @@
           <value>
             <list>
               <ExternalProjectPojo>
-                <option name="name" value="csv [file:/Users/jeremyigonin/IdeaProjects/CSV/]" />
+                <option name="name" value="csv [file:/Users/jeremyigonin/Documents/Hemera/scala/CSV/]" />
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
@@ -138,14 +213,12 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="3108479240000" />
         <entry key="$PROJECT_DIR$/build.sbt" value="1495277515" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="2567920773" />
       </map>
     </option>
     <option name="projectSyncType">
       <map>
-        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
         <entry key="$PROJECT_DIR$/../scala-spark-boilerplate" value="PREVIEW" />
       </map>
     </option>
@@ -162,6 +235,7 @@
       <updated>1554240528765</updated>
       <workItem from="1554240530101" duration="475000" />
       <workItem from="1554317687619" duration="4611000" />
+      <workItem from="1554325006693" duration="1307000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1554319105785</created>
@@ -181,7 +255,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5086000" />
+    <option name="totallyTimeSpent" value="6393000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -194,8 +268,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23870574" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26251528" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -211,9 +286,9 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32959184" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.32941177" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" weight="0.31428573" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4993895" visible="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.498779" visible="true" weight="0.32142857" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50061053" side_tool="true" visible="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.501221" side_tool="true" weight="0.32142857" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.32959184" />
@@ -224,7 +299,7 @@
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="sbt" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Database" order="7" visible="true" weight="0.32967034" />
+      <window_info anchor="right" id="Database" order="7" visible="true" weight="0.16056167" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
@@ -257,49 +332,76 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
     <option name="LAST_COMMIT_MESSAGE" value="First commit" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/samples/models/old/Woman.java">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/samples/models/old/Woman.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/samples/models/old/Brand.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/samples/models/old/Alien.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/samples/models/old/Phone.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/samples/models/old/Computer.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/samples/models/old/Device.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/samples/models/old/Man.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/samples/models/Person.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/samples/models/old/Dog.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/samples/models/old/Animal.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/CSV/group5/main.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/simpleaPackage/Program.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/simplePackage/package.scala">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/samples/models/old/Brand.scala">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/samples/models/old/Alien.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/samples/models/old/Phone.scala">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/samples/models/old/Computer.scala">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/samples/models/old/Device.scala">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/samples/models/old/Man.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/samples/models/Person.scala">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/samples/models/old/Dog.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/samples/models/old/Animal.scala">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/CSV/group5/main.scala">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/simpleaPackage/Program.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/simplePackage/Cat.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        <state relative-caret-position="30">
+          <caret line="2" column="53" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/simplePackage/Person.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/simplePackage/Car.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/simplePackage/Actor.scala">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/simplePackage/Film.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Program.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
         </state>
       </provider>
     </entry>
