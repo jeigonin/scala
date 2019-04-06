@@ -37,18 +37,6 @@ object Program {
     else{
       print("ca merde ton truc");
     }
-
-//    valuetest match {
-//      case valuetest.length == 3 => new Cat(valuetest(0), valuetest(1),valuetest(2).toInt);
-//      case valuetest.length == 4 => new Person(valuetest(0), valuetest(1),valuetest(2).toInt, valuetest(3).toInt);
-//    }
-//    value match {
-//      case Cat(name, race, age) => print(value);//new Cat(name, race, age);
-//      case Person(firstName, lastName, salary, numberOfChildren) => print(value);//new Person(firstName, lastName, salary, numberOfChildren);
-//      case Car(brand, countryOfBirth, maxSpeed,speeds) => print(value);//new Car(brand, countryOfBirth, maxSpeed,speeds);
-//      case Film(mainActor, dateOfRelease) => print(value);//new Film(mainActor, dateOfRelease);
-//      case Actor(name, filmsPlayed) => print(value);//new Actor(name, filmsPlayed);
-   // }
   }
 
   def readCSV(path:String) : Array[Any] = {
