@@ -1,6 +1,6 @@
 package simplePackage
 
-import java.sql.Date
+import java.util.Date
 
 case class Film(mainActors: Seq[String], dateOfRelease: Date) {
 
