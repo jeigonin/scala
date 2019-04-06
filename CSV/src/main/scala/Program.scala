@@ -11,28 +11,31 @@ object Program {
 
     val path = "/Users/jeremyigonin/Documents/Hemera/scala/CSV/src/main/scala/simplePackage/CsvFile.csv";
     val array = readCSV(path);
-    array.foreach(f = o => whichType(o.toString));
-    array.foreach(f = o => print(o.getClass +" "+ o +"\n"));
-    //    print(array);
+    val array2 = array.map(o => whichType(o.toString))
+    array2.foreach(f = o => print(o.getClass +" "+ o +"\n"));
   }
 
   def whichType(value : String)= {
-    val valuetest = value.split(',').toList;
-    if(valuetest.lengthCompare(3)== true){
+    val valuetest = value.split(',');
+
+    if(valuetest.length == 3){
       new Cat(valuetest(0), valuetest(1),valuetest(2).toInt);
     }
-    if(valuetest.lengthCompare(4) ==true  && valuetest(2).toInt >=400){
+    else if(valuetest.length == 4  && valuetest(2).toInt >=400){
       new Person(valuetest(0), valuetest(1), valuetest(2).toInt, valuetest(3).toInt);
     }
-    if(valuetest.lengthCompare(4) == true  && valuetest(2).toInt <=400){
+    else if(valuetest.length == 4  && valuetest(2).toInt <=400){
       new Car(valuetest(0), valuetest(1),valuetest(2).toInt, valuetest(3).toInt);
     }
-    if(valuetest.lengthCompare(2) == true && valuetest(1).contains(";")){
+    else if(valuetest.length == 2 && valuetest(1).contains(";")){
       new Actor(valuetest(0), valuetest(1).split(";").toSeq);
     }
-    if(valuetest.lengthCompare(2) == true && valuetest(0).contains(";")){
+    else if(valuetest.length == 2 && valuetest(0).contains(";")){
       val df :DateFormat = new SimpleDateFormat("dd/MM/yyyy");
       new Film(valuetest(0).split(";").toSeq, df.parse(valuetest(1)) );
+    }
+    else{
+      print("ca merde ton truc");
     }
 
 //    valuetest match {
