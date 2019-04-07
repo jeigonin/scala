@@ -7,7 +7,7 @@
 		revision="0.1"
 		conf="test"
 		confs="default, compile, runtime, test, provided, optional"
-		date="20190403224219"/>
+		date="20190407202958"/>
 	<dependencies>
 		<module organisation="org.scala-sbt" name="sbt">
 			<revision name="1.2.1" status="release" pubdate="20180807012342" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sbt/sbt" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="19">
@@ -15,7 +15,7 @@
 				<metadata-artifact status="no" details="" size="3224" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/sbt/ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/sbt/1.2.1/sbt-1.2.1.pom"/>
 				<caller organisation="csv" name="csv$sources_2.12" conf="test, compile, runtime" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="sbt" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="4812" time="80" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/sbt/srcs/sbt-1.2.1-sources.jar">
+					<artifact name="sbt" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4812" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/sbt/srcs/sbt-1.2.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/sbt/1.2.1/sbt-1.2.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -27,7 +27,7 @@
 				<metadata-artifact status="no" details="" size="5863" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/main_2.12/ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/main_2.12/1.2.1/main_2.12-1.2.1.pom"/>
 				<caller organisation="csv" name="csv$sources_2.12" conf="test, compile, runtime" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="main_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="240485" time="440" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/main_2.12/srcs/main_2.12-1.2.1-sources.jar">
+					<artifact name="main_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="240485" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/main_2.12/srcs/main_2.12-1.2.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/main_2.12/1.2.1/main_2.12-1.2.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -39,7 +39,7 @@
 				<metadata-artifact status="no" details="" size="3164" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/zinc-compile_2.12/ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile_2.12/1.2.1/zinc-compile_2.12-1.2.1.pom"/>
 				<caller organisation="csv" name="csv$sources_2.12" conf="test, compile, runtime" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="zinc-compile_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1957" time="335" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/zinc-compile_2.12/srcs/zinc-compile_2.12-1.2.1-sources.jar">
+					<artifact name="zinc-compile_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1957" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/zinc-compile_2.12/srcs/zinc-compile_2.12-1.2.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile_2.12/1.2.1/zinc-compile_2.12-1.2.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -87,7 +87,7 @@
 				<metadata-artifact status="no" details="" size="2544" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/scripted-plugin_2.12/ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/scripted-plugin_2.12/1.2.1/scripted-plugin_2.12-1.2.1.pom"/>
 				<caller organisation="csv" name="csv$sources_2.12" conf="test, compile, runtime" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="scripted-plugin_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="632" time="196" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/scripted-plugin_2.12/srcs/scripted-plugin_2.12-1.2.1-sources.jar">
+					<artifact name="scripted-plugin_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="632" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/scripted-plugin_2.12/srcs/scripted-plugin_2.12-1.2.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/scripted-plugin_2.12/1.2.1/scripted-plugin_2.12-1.2.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -99,7 +99,7 @@
 				<metadata-artifact status="no" details="" size="3553" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/scripted-sbt-redux_2.12/ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/scripted-sbt-redux_2.12/1.2.1/scripted-sbt-redux_2.12-1.2.1.pom"/>
 				<caller organisation="csv" name="csv$sources_2.12" conf="test, compile, runtime" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="scripted-sbt-redux_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="11772" time="284" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/scripted-sbt-redux_2.12/srcs/scripted-sbt-redux_2.12-1.2.1-sources.jar">
+					<artifact name="scripted-sbt-redux_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="11772" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/scripted-sbt-redux_2.12/srcs/scripted-sbt-redux_2.12-1.2.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/scripted-sbt-redux_2.12/1.2.1/scripted-sbt-redux_2.12-1.2.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -111,7 +111,7 @@
 				<metadata-artifact status="no" details="" size="4559" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/main-settings_2.12/ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/main-settings_2.12/1.2.1/main-settings_2.12-1.2.1.pom"/>
 				<caller organisation="csv" name="csv$sources_2.12" conf="test, compile, runtime" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="main-settings_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="40552" time="355" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/main-settings_2.12/srcs/main-settings_2.12-1.2.1-sources.jar">
+					<artifact name="main-settings_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="40552" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/main-settings_2.12/srcs/main-settings_2.12-1.2.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/main-settings_2.12/1.2.1/main-settings_2.12-1.2.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -123,7 +123,7 @@
 				<metadata-artifact status="no" details="" size="4557" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/command_2.12/ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/command_2.12/1.2.1/command_2.12-1.2.1.pom"/>
 				<caller organisation="csv" name="csv$sources_2.12" conf="test, compile, runtime" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="command_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="34336" time="406" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/command_2.12/srcs/command_2.12-1.2.1-sources.jar">
+					<artifact name="command_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="34336" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/command_2.12/srcs/command_2.12-1.2.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/command_2.12/1.2.1/command_2.12-1.2.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -147,7 +147,7 @@
 				<metadata-artifact status="no" details="" size="3706" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/protocol_2.12/ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/protocol_2.12/1.2.1/protocol_2.12-1.2.1.pom"/>
 				<caller organisation="csv" name="csv$sources_2.12" conf="test, compile, runtime" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="protocol_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="9818" time="419" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/protocol_2.12/srcs/protocol_2.12-1.2.1-sources.jar">
+					<artifact name="protocol_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="9818" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/protocol_2.12/srcs/protocol_2.12-1.2.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/protocol_2.12/1.2.1/protocol_2.12-1.2.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -159,7 +159,7 @@
 				<metadata-artifact status="no" details="" size="5256" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/actions_2.12/ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/actions_2.12/1.2.1/actions_2.12-1.2.1.pom"/>
 				<caller organisation="csv" name="csv$sources_2.12" conf="test, compile, runtime" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="actions_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="25349" time="437" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/actions_2.12/srcs/actions_2.12-1.2.1-sources.jar">
+					<artifact name="actions_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="25349" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/actions_2.12/srcs/actions_2.12-1.2.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/actions_2.12/1.2.1/actions_2.12-1.2.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -171,7 +171,7 @@
 				<metadata-artifact status="no" details="" size="3703" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/zinc_2.12/ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/zinc_2.12/1.2.1/zinc_2.12-1.2.1.pom"/>
 				<caller organisation="csv" name="csv$sources_2.12" conf="test, compile, runtime" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="zinc_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="15857" time="131" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/zinc_2.12/srcs/zinc_2.12-1.2.1-sources.jar">
+					<artifact name="zinc_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="15857" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/zinc_2.12/srcs/zinc_2.12-1.2.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/zinc_2.12/1.2.1/zinc_2.12-1.2.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -183,7 +183,7 @@
 				<metadata-artifact status="no" details="" size="3305" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/zinc-persist_2.12/ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.2.1/zinc-persist_2.12-1.2.1.pom"/>
 				<caller organisation="csv" name="csv$sources_2.12" conf="test, compile, runtime" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="zinc-persist_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="48335" time="272" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/zinc-persist_2.12/srcs/zinc-persist_2.12-1.2.1-sources.jar">
+					<artifact name="zinc-persist_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="48335" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/zinc-persist_2.12/srcs/zinc-persist_2.12-1.2.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.2.1/zinc-persist_2.12-1.2.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -267,7 +267,7 @@
 				<metadata-artifact status="no" details="" size="3961" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/zinc-core_2.12/ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.2.1/zinc-core_2.12-1.2.1.pom"/>
 				<caller organisation="csv" name="csv$sources_2.12" conf="test, compile, runtime" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="zinc-core_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="53781" time="239" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/zinc-core_2.12/srcs/zinc-core_2.12-1.2.1-sources.jar">
+					<artifact name="zinc-core_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="53781" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/zinc-core_2.12/srcs/zinc-core_2.12-1.2.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.2.1/zinc-core_2.12-1.2.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -279,7 +279,7 @@
 				<metadata-artifact status="no" details="" size="3102" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/zinc-ivy-integration_2.12/ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/zinc-ivy-integration_2.12/1.2.1/zinc-ivy-integration_2.12-1.2.1.pom"/>
 				<caller organisation="csv" name="csv$sources_2.12" conf="test, compile, runtime" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="zinc-ivy-integration_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="10000" time="277" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/zinc-ivy-integration_2.12/srcs/zinc-ivy-integration_2.12-1.2.1-sources.jar">
+					<artifact name="zinc-ivy-integration_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="10000" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/zinc-ivy-integration_2.12/srcs/zinc-ivy-integration_2.12-1.2.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/zinc-ivy-integration_2.12/1.2.1/zinc-ivy-integration_2.12-1.2.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -291,7 +291,7 @@
 				<metadata-artifact status="no" details="" size="4425" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/zinc-compile-core_2.12/ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/1.2.1/zinc-compile-core_2.12-1.2.1.pom"/>
 				<caller organisation="csv" name="csv$sources_2.12" conf="test, compile, runtime" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="zinc-compile-core_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="32675" time="324" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/zinc-compile-core_2.12/srcs/zinc-compile-core_2.12-1.2.1-sources.jar">
+					<artifact name="zinc-compile-core_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="32675" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/zinc-compile-core_2.12/srcs/zinc-compile-core_2.12-1.2.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/1.2.1/zinc-compile-core_2.12-1.2.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -315,7 +315,7 @@
 				<metadata-artifact status="no" details="" size="3161" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/zinc-apiinfo_2.12/ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.12/1.2.1/zinc-apiinfo_2.12-1.2.1.pom"/>
 				<caller organisation="csv" name="csv$sources_2.12" conf="test, compile, runtime" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="zinc-apiinfo_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="26084" time="277" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/zinc-apiinfo_2.12/srcs/zinc-apiinfo_2.12-1.2.1-sources.jar">
+					<artifact name="zinc-apiinfo_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="26084" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/zinc-apiinfo_2.12/srcs/zinc-apiinfo_2.12-1.2.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.12/1.2.1/zinc-apiinfo_2.12-1.2.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -327,7 +327,7 @@
 				<metadata-artifact status="no" details="" size="3296" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/zinc-classfile_2.12/ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/zinc-classfile_2.12/1.2.1/zinc-classfile_2.12-1.2.1.pom"/>
 				<caller organisation="csv" name="csv$sources_2.12" conf="test, compile, runtime" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="zinc-classfile_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="7812" time="328" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/zinc-classfile_2.12/srcs/zinc-classfile_2.12-1.2.1-sources.jar">
+					<artifact name="zinc-classfile_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="7812" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/zinc-classfile_2.12/srcs/zinc-classfile_2.12-1.2.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/zinc-classfile_2.12/1.2.1/zinc-classfile_2.12-1.2.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -339,7 +339,7 @@
 				<metadata-artifact status="no" details="" size="2919" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/util-tracking_2.12/ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/util-tracking_2.12/1.2.0/util-tracking_2.12-1.2.0.pom"/>
 				<caller organisation="csv" name="csv$sources_2.12" conf="test, compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="util-tracking_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="5255" time="294" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/util-tracking_2.12/srcs/util-tracking_2.12-1.2.0-sources.jar">
+					<artifact name="util-tracking_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="5255" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/util-tracking_2.12/srcs/util-tracking_2.12-1.2.0-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/util-tracking_2.12/1.2.0/util-tracking_2.12-1.2.0-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -351,7 +351,7 @@
 				<metadata-artifact status="no" details="" size="3684" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/task-system_2.12/ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/task-system_2.12/1.2.1/task-system_2.12-1.2.1.pom"/>
 				<caller organisation="csv" name="csv$sources_2.12" conf="test, compile, runtime" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="task-system_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="9691" time="212" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/task-system_2.12/srcs/task-system_2.12-1.2.1-sources.jar">
+					<artifact name="task-system_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="9691" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/task-system_2.12/srcs/task-system_2.12-1.2.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/task-system_2.12/1.2.1/task-system_2.12-1.2.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -363,7 +363,7 @@
 				<metadata-artifact status="no" details="" size="3262" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/tasks_2.12/ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/tasks_2.12/1.2.1/tasks_2.12-1.2.1.pom"/>
 				<caller organisation="csv" name="csv$sources_2.12" conf="test, compile, runtime" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="tasks_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="12585" time="345" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/tasks_2.12/srcs/tasks_2.12-1.2.1-sources.jar">
+					<artifact name="tasks_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="12585" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/tasks_2.12/srcs/tasks_2.12-1.2.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/tasks_2.12/1.2.1/tasks_2.12-1.2.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -375,7 +375,7 @@
 				<metadata-artifact status="no" details="" size="3679" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/run_2.12/ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/run_2.12/1.2.1/run_2.12-1.2.1.pom"/>
 				<caller organisation="csv" name="csv$sources_2.12" conf="test, compile, runtime" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="run_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="18628" time="309" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/run_2.12/srcs/run_2.12-1.2.1-sources.jar">
+					<artifact name="run_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="18628" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/run_2.12/srcs/run_2.12-1.2.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/run_2.12/1.2.1/run_2.12-1.2.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -387,7 +387,7 @@
 				<metadata-artifact status="no" details="" size="3529" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/completion_2.12/ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/completion_2.12/1.2.1/completion_2.12-1.2.1.pom"/>
 				<caller organisation="csv" name="csv$sources_2.12" conf="test, compile, runtime" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="completion_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="30205" time="392" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/completion_2.12/srcs/completion_2.12-1.2.1-sources.jar">
+					<artifact name="completion_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="30205" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/completion_2.12/srcs/completion_2.12-1.2.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/completion_2.12/1.2.1/completion_2.12-1.2.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -399,7 +399,7 @@
 				<metadata-artifact status="no" details="" size="2526" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/util-control_2.12/ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.2.0/util-control_2.12-1.2.0.pom"/>
 				<caller organisation="csv" name="csv$sources_2.12" conf="test, compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="util-control_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="2384" time="324" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/util-control_2.12/srcs/util-control_2.12-1.2.0-sources.jar">
+					<artifact name="util-control_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2384" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/util-control_2.12/srcs/util-control_2.12-1.2.0-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.2.0/util-control_2.12-1.2.0-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -411,7 +411,7 @@
 				<metadata-artifact status="no" details="" size="3263" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/logic_2.12/ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/logic_2.12/1.2.1/logic_2.12-1.2.1.pom"/>
 				<caller organisation="csv" name="csv$sources_2.12" conf="test, compile, runtime" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="logic_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="5452" time="331" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/logic_2.12/srcs/logic_2.12-1.2.1-sources.jar">
+					<artifact name="logic_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="5452" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/logic_2.12/srcs/logic_2.12-1.2.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/logic_2.12/1.2.1/logic_2.12-1.2.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -423,7 +423,7 @@
 				<metadata-artifact status="no" details="" size="2648" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/util-relation_2.12/ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.2.0/util-relation_2.12-1.2.0.pom"/>
 				<caller organisation="csv" name="csv$sources_2.12" conf="test, compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="util-relation_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="2931" time="230" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/util-relation_2.12/srcs/util-relation_2.12-1.2.0-sources.jar">
+					<artifact name="util-relation_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2931" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/util-relation_2.12/srcs/util-relation_2.12-1.2.0-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.2.0/util-relation_2.12-1.2.0-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -435,7 +435,7 @@
 				<metadata-artifact status="no" details="" size="3660" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/testing_2.12/ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/testing_2.12/1.2.1/testing_2.12-1.2.1.pom"/>
 				<caller organisation="csv" name="csv$sources_2.12" conf="test, compile, runtime" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="testing_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="13593" time="73" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/testing_2.12/srcs/testing_2.12-1.2.1-sources.jar">
+					<artifact name="testing_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="13593" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/testing_2.12/srcs/testing_2.12-1.2.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/testing_2.12/1.2.1/testing_2.12-1.2.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -447,7 +447,7 @@
 				<metadata-artifact status="no" details="" size="3439" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/zinc-classpath_2.12/ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.2.1/zinc-classpath_2.12-1.2.1.pom"/>
 				<caller organisation="csv" name="csv$sources_2.12" conf="test, compile, runtime" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="zinc-classpath_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="14117" time="292" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/zinc-classpath_2.12/srcs/zinc-classpath_2.12-1.2.1-sources.jar">
+					<artifact name="zinc-classpath_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="14117" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/zinc-classpath_2.12/srcs/zinc-classpath_2.12-1.2.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.2.1/zinc-classpath_2.12-1.2.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -459,7 +459,7 @@
 				<metadata-artifact status="no" details="" size="2655" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/compiler-interface/ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.2.1/compiler-interface-1.2.1.pom"/>
 				<caller organisation="csv" name="csv$sources_2.12" conf="test, compile, runtime" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="compiler-interface" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="35776" time="247" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/compiler-interface/srcs/compiler-interface-1.2.1-sources.jar">
+					<artifact name="compiler-interface" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="35776" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/compiler-interface/srcs/compiler-interface-1.2.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.2.1/compiler-interface-1.2.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -471,7 +471,7 @@
 				<metadata-artifact status="no" details="" size="2521" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/test-agent/ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.2.1/test-agent-1.2.1.pom"/>
 				<caller organisation="csv" name="csv$sources_2.12" conf="test, compile, runtime" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="test-agent" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="6728" time="144" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/test-agent/srcs/test-agent-1.2.1-sources.jar">
+					<artifact name="test-agent" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="6728" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/test-agent/srcs/test-agent-1.2.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.2.1/test-agent-1.2.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -495,7 +495,7 @@
 				<metadata-artifact status="no" details="" size="3165" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/librarymanagement-ivy_2.12/ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-ivy_2.12/1.2.0/librarymanagement-ivy_2.12-1.2.0.pom"/>
 				<caller organisation="csv" name="csv$sources_2.12" conf="test, compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="librarymanagement-ivy_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="90851" time="295" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/librarymanagement-ivy_2.12/srcs/librarymanagement-ivy_2.12-1.2.0-sources.jar">
+					<artifact name="librarymanagement-ivy_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="90851" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/librarymanagement-ivy_2.12/srcs/librarymanagement-ivy_2.12-1.2.0-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-ivy_2.12/1.2.0/librarymanagement-ivy_2.12-1.2.0-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -507,7 +507,7 @@
 				<metadata-artifact status="no" details="" size="3556" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt.ivy/ivy/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/ivy/ivy/2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.pom"/>
 				<caller organisation="csv" name="csv$sources_2.12" conf="test, compile, runtime" rev="2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310" rev-constraint-default="2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310" rev-constraint-dynamic="2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="ivy" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="886994" time="600" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt.ivy/ivy/srcs/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310-sources.jar">
+					<artifact name="ivy" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="886994" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt.ivy/ivy/srcs/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/ivy/ivy/2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -519,7 +519,7 @@
 				<metadata-artifact status="no" details="" size="4648" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/librarymanagement-core_2.12/ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-core_2.12/1.2.0/librarymanagement-core_2.12-1.2.0.pom"/>
 				<caller organisation="csv" name="csv$sources_2.12" conf="test, compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="librarymanagement-core_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="140390" time="229" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/librarymanagement-core_2.12/srcs/librarymanagement-core_2.12-1.2.0-sources.jar">
+					<artifact name="librarymanagement-core_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="140390" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/librarymanagement-core_2.12/srcs/librarymanagement-core_2.12-1.2.0-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-core_2.12/1.2.0/librarymanagement-core_2.12-1.2.0-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -531,7 +531,7 @@
 				<metadata-artifact status="no" details="" size="3212" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/util-cache_2.12/ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.2.0/util-cache_2.12-1.2.0.pom"/>
 				<caller organisation="csv" name="csv$sources_2.12" conf="test, compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="util-cache_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="7187" time="249" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/util-cache_2.12/srcs/util-cache_2.12-1.2.0-sources.jar">
+					<artifact name="util-cache_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="7187" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/util-cache_2.12/srcs/util-cache_2.12-1.2.0-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.2.0/util-cache_2.12-1.2.0-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -615,7 +615,7 @@
 				<metadata-artifact status="no" details="" size="3108" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/util-scripted_2.12/ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/util-scripted_2.12/1.2.0/util-scripted_2.12-1.2.0.pom"/>
 				<caller organisation="csv" name="csv$sources_2.12" conf="test, compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="util-scripted_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="9029" time="175" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/util-scripted_2.12/srcs/util-scripted_2.12-1.2.0-sources.jar">
+					<artifact name="util-scripted_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="9029" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/util-scripted_2.12/srcs/util-scripted_2.12-1.2.0-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/util-scripted_2.12/1.2.0/util-scripted_2.12-1.2.0-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -687,7 +687,7 @@
 				<metadata-artifact status="no" details="" size="4017" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/util-logging_2.12/ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.2.0/util-logging_2.12-1.2.0.pom"/>
 				<caller organisation="csv" name="csv$sources_2.12" conf="test, compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="util-logging_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="28442" time="373" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/util-logging_2.12/srcs/util-logging_2.12-1.2.0-sources.jar">
+					<artifact name="util-logging_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="28442" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/util-logging_2.12/srcs/util-logging_2.12-1.2.0-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.2.0/util-logging_2.12-1.2.0-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -699,7 +699,7 @@
 				<metadata-artifact status="no" details="" size="2346" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/util-interface/ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.2.0/util-interface-1.2.0.pom"/>
 				<caller organisation="csv" name="csv$sources_2.12" conf="test, compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="util-interface" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1797" time="134" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/util-interface/srcs/util-interface-1.2.0-sources.jar">
+					<artifact name="util-interface" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1797" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/util-interface/srcs/util-interface-1.2.0-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.2.0/util-interface-1.2.0-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -723,7 +723,7 @@
 				<metadata-artifact status="no" details="" size="2824" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/sbinary_2.12/ivy-0.4.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/sbinary_2.12/0.4.4/sbinary_2.12-0.4.4.pom"/>
 				<caller organisation="csv" name="csv$sources_2.12" conf="test, compile, runtime" rev="0.4.4" rev-constraint-default="0.4.4" rev-constraint-dynamic="0.4.4" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="sbinary_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="10053" time="232" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/sbinary_2.12/srcs/sbinary_2.12-0.4.4-sources.jar">
+					<artifact name="sbinary_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="10053" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/sbinary_2.12/srcs/sbinary_2.12-0.4.4-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/sbinary_2.12/0.4.4/sbinary_2.12-0.4.4-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -735,7 +735,7 @@
 				<metadata-artifact status="no" details="" size="2820" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/core-macros_2.12/ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.2.1/core-macros_2.12-1.2.1.pom"/>
 				<caller organisation="csv" name="csv$sources_2.12" conf="test, compile, runtime" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="core-macros_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="14940" time="336" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/core-macros_2.12/srcs/core-macros_2.12-1.2.1-sources.jar">
+					<artifact name="core-macros_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="14940" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/core-macros_2.12/srcs/core-macros_2.12-1.2.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.2.1/core-macros_2.12-1.2.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -747,7 +747,7 @@
 				<metadata-artifact status="no" details="" size="3282" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/collections_2.12/ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.2.1/collections_2.12-1.2.1.pom"/>
 				<caller organisation="csv" name="csv$sources_2.12" conf="test, compile, runtime" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="collections_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="31086" time="225" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/collections_2.12/srcs/collections_2.12-1.2.1-sources.jar">
+					<artifact name="collections_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="31086" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/collections_2.12/srcs/collections_2.12-1.2.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.2.1/collections_2.12-1.2.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -759,7 +759,7 @@
 				<metadata-artifact status="no" details="" size="2786" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/util-position_2.12/ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.2.0/util-position_2.12-1.2.0.pom"/>
 				<caller organisation="csv" name="csv$sources_2.12" conf="test, compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="util-position_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1499" time="107" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/util-position_2.12/srcs/util-position_2.12-1.2.0-sources.jar">
+					<artifact name="util-position_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1499" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/util-position_2.12/srcs/util-position_2.12-1.2.0-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.2.0/util-position_2.12-1.2.0-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -808,7 +808,7 @@
 				<metadata-artifact status="no" details="" size="35636" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.apache.logging.log4j/log4j-slf4j-impl/ivy-2.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j-impl/2.8.1/log4j-slf4j-impl-2.8.1.pom"/>
 				<caller organisation="csv" name="csv$sources_2.12" conf="test, compile, runtime" rev="2.8.1" rev-constraint-default="2.8.1" rev-constraint-dynamic="2.8.1" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="log4j-slf4j-impl" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="23313" time="169" location="/Users/jeremyigonin/.ivy2/cache/org.apache.logging.log4j/log4j-slf4j-impl/srcs/log4j-slf4j-impl-2.8.1-sources.jar">
+					<artifact name="log4j-slf4j-impl" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="23313" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.apache.logging.log4j/log4j-slf4j-impl/srcs/log4j-slf4j-impl-2.8.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j-impl/2.8.1/log4j-slf4j-impl-2.8.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -820,7 +820,7 @@
 				<metadata-artifact status="no" details="" size="40671" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.apache.logging.log4j/log4j-core/ivy-2.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.pom"/>
 				<caller organisation="csv" name="csv$sources_2.12" conf="test, compile, runtime" rev="2.8.1" rev-constraint-default="2.8.1" rev-constraint-dynamic="2.8.1" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="log4j-core" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1110757" time="558" location="/Users/jeremyigonin/.ivy2/cache/org.apache.logging.log4j/log4j-core/srcs/log4j-core-2.8.1-sources.jar">
+					<artifact name="log4j-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1110757" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.apache.logging.log4j/log4j-core/srcs/log4j-core-2.8.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -832,7 +832,7 @@
 				<metadata-artifact status="no" details="" size="2758" time="0" location="/Users/jeremyigonin/.ivy2/cache/com.lmax/disruptor/ivy-3.3.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lmax/disruptor/3.3.6/disruptor-3.3.6.pom"/>
 				<caller organisation="csv" name="csv$sources_2.12" conf="test, compile, runtime" rev="3.3.6" rev-constraint-default="3.3.6" rev-constraint-dynamic="3.3.6" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="disruptor" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="81922" time="323" location="/Users/jeremyigonin/.ivy2/cache/com.lmax/disruptor/srcs/disruptor-3.3.6-sources.jar">
+					<artifact name="disruptor" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="81922" time="0" location="/Users/jeremyigonin/.ivy2/cache/com.lmax/disruptor/srcs/disruptor-3.3.6-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lmax/disruptor/3.3.6/disruptor-3.3.6-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -844,7 +844,7 @@
 				<metadata-artifact status="no" details="" size="35218" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.apache.logging.log4j/log4j-api/ivy-2.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.pom"/>
 				<caller organisation="csv" name="csv$sources_2.12" conf="test, compile, runtime" rev="2.8.1" rev-constraint-default="2.8.1" rev-constraint-dynamic="2.8.1" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="log4j-api" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="217979" time="352" location="/Users/jeremyigonin/.ivy2/cache/org.apache.logging.log4j/log4j-api/srcs/log4j-api-2.8.1-sources.jar">
+					<artifact name="log4j-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="217979" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.apache.logging.log4j/log4j-api/srcs/log4j-api-2.8.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -868,7 +868,7 @@
 				<metadata-artifact status="no" details="" size="3274" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/io_2.12/ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.2.1/io_2.12-1.2.1.pom"/>
 				<caller organisation="csv" name="csv$sources_2.12" conf="test, compile, runtime" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="io_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="45130" time="238" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/io_2.12/srcs/io_2.12-1.2.1-sources.jar">
+					<artifact name="io_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="45130" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-sbt/io_2.12/srcs/io_2.12-1.2.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.2.1/io_2.12-1.2.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -918,7 +918,7 @@
 				<metadata-artifact status="no" details="" size="2939" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-lang/scala-compiler/ivy-2.12.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.6/scala-compiler-2.12.6.pom"/>
 				<caller organisation="csv" name="csv$sources_2.12" conf="test, compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="scala-compiler" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1836089" time="772" location="/Users/jeremyigonin/.ivy2/cache/org.scala-lang/scala-compiler/srcs/scala-compiler-2.12.6-sources.jar">
+					<artifact name="scala-compiler" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1836089" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-lang/scala-compiler/srcs/scala-compiler-2.12.6-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.6/scala-compiler-2.12.6-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -954,7 +954,7 @@
 				<metadata-artifact status="no" details="" size="2637" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.12.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.6/scala-reflect-2.12.6.pom"/>
 				<caller organisation="csv" name="csv$sources_2.12" conf="test, compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="0.1" extra-info.apiURL="http://www.scala-lang.org/api/2.12.6/"/>
 				<artifacts>
-					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="587933" time="430" location="/Users/jeremyigonin/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.12.6-sources.jar">
+					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="587933" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.12.6-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.6/scala-reflect-2.12.6-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -966,7 +966,7 @@
 				<metadata-artifact status="no" details="" size="2471" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6.pom"/>
 				<caller organisation="csv" name="csv$sources_2.12" conf="test, compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="0.1" extra-info.apiURL="http://www.scala-lang.org/api/2.12.6/"/>
 				<artifacts>
-					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="992293" time="457" location="/Users/jeremyigonin/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.6-sources.jar">
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="992293" time="0" location="/Users/jeremyigonin/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.6-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6-sources.jar"/>
 					</artifact>
 				</artifacts>

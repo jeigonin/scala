@@ -4,7 +4,7 @@
 		module="csv$sbt_2.12"
 		revision="0.1"
 		status="integration"
-		publication="20190406183131"
+		publication="20190407210847"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

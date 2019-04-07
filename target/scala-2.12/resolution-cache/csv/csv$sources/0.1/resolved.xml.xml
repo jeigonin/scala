@@ -4,7 +4,7 @@
 		module="csv$sources"
 		revision="0.1"
 		status="integration"
-		publication="20190403224222"
+		publication="20190407202958"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

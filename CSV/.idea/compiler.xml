@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jackson-dataformat-csv" />
+        <module name="jackson-dataformat-properties" />
+        <module name="jackson-dataformat-yaml" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jackson-dataformat-csv" target="1.8" />
+      <module name="jackson-dataformat-properties" target="1.8" />
+      <module name="jackson-dataformat-yaml" target="1.8" />
+      <module name="jackson-dataformats-text" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

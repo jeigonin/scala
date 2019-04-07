@@ -4,18 +4,91 @@ import simplePackage._
 
 import scala.io.Source
 import java.time.format.DateTimeFormatter
-import java.text.DateFormat;
+import java.text.DateFormat
+
+import com.oracle.javafx.jmx.json.JSONFactory
+
+import com.fasterxml.jackson.databind.ObjectMapper
+import com.fasterxml.jackson.databind.{DeserializationFeature, ObjectMapper}
+import com.fasterxml.jackson.module.scala.experimental.ScalaObjectMapper
+import com.fasterxml.jackson.module.scala.DefaultScalaModule
+import com.fasterxml.jackson.dataformat.csv.CsvSchema
+import com.fasterxml.jackson.dataformat.csv.CsvMapper
+import java.io.File
+
 
 object Program {
   def main(args: Array[String]): Unit = {
 
-    val path = "/Users/jeremyigonin/Documents/Hemera/scala/CSV/src/main/scala/simplePackage/CsvFile.csv";
-    val array = readCSV(path);
-    val array2 = array.map(o => whichType(o.toString))
-    array2.foreach(f = o => print(o.getClass +" "+ o +"\n"));
+//    val path = "/Users/jeremyigonin/Documents/Hemera/scala/CSV/src/main/scala/simplePackage/CsvFile.csv";
+//    val array = readCSV(path);
+//    val array2 = array.map(o => parseType(o.toString))
+//    array2.foreach(f = o => print(o.getClass +" "+ o +"\n"));
+
   }
 
-  def whichType(value : String)= {
+
+  def csvFileToJson(filePath: String): String = {
+    val inputCsvFile = new File(filePath)
+
+    // if the csv has header, use setUseHeader(true)
+    val csvSchema = CsvSchema.builder().setUseHeader(true).build()
+    val csvMapper = new CsvMapper()
+
+    // java.util.Map[String, String] identifies they key values type in JSON
+    val readAll = csvMapper
+      .readerFor(classOf[java.util.Map[String, String]])
+      .`with`(csvSchema)
+      .readValues(inputCsvFile)
+      .readAll()
+
+    val mapper = new ObjectMapper()
+
+    // json return value
+    mapper.writerWithDefaultPrettyPrinter().writeValueAsString(readAll)
+  }
+
+
+
+//  def ojbToJson(value: Any): Unit ={
+//    if(value.getClass ==  simplePackage.Cat){
+//      {
+//        "name" : value.name,
+//        "race" : value.race,
+//        "age" : value.age,
+//      }
+//    }
+//    if(value.getClass ==  simplePackage.Person){
+//      {
+//        "firstName" : value.firstName,
+//        "lastName" : value.lastName,
+//        "salary" : value.salary,
+//        "numberOfChildren" : value.numberOfChildren,
+//      }
+//    }
+//    if(value.getClass ==  simplePackage.Car){
+//      {
+//        "brand" : value.brand,
+//        "countryOfBirth" : value.countryOfBirth,
+//        "maxSpeed" : value.maxSpeed,
+//        "speeds" : value.speeds,
+//      }
+//    }
+//    if(value.getClass ==  simplePackage.Actor){
+//      {
+//        "name" : value.name,
+//        "filmsPlayed" : value.filmsPlayed,
+//      }
+//    }
+//    if(value.getClass ==  simplePackage.Film){
+//      {
+//        "mainActors" : value.mainActors,
+//        "dateOfRelease" : value.dateOfRelease,
+//      }
+//    }
+//  }
+
+  def parseType(value : String)= {
     val valuetest = value.split(',');
 
     if(valuetest.length == 3){
