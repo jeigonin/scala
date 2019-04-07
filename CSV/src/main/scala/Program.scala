@@ -7,24 +7,35 @@ import java.time.format.DateTimeFormatter
 import java.text.DateFormat
 
 import com.oracle.javafx.jmx.json.JSONFactory
-
 import com.fasterxml.jackson.databind.ObjectMapper
 import com.fasterxml.jackson.databind.{DeserializationFeature, ObjectMapper}
 import com.fasterxml.jackson.module.scala.experimental.ScalaObjectMapper
 import com.fasterxml.jackson.module.scala.DefaultScalaModule
 import com.fasterxml.jackson.dataformat.csv.CsvSchema
 import com.fasterxml.jackson.dataformat.csv.CsvMapper
-import java.io.File
+import java.io.{File, FileOutputStream}
+import com.github.agourlay.json2Csv.Json2Csv
 
 
 object Program {
   def main(args: Array[String]): Unit = {
+
+    //Partie 1
 
 //    val path = "/Users/jeremyigonin/Documents/Hemera/scala/CSV/src/main/scala/simplePackage/CsvFile.csv";
 //    val array = readCSV(path);
 //    val array2 = array.map(o => parseType(o.toString))
 //    array2.foreach(f = o => print(o.getClass +" "+ o +"\n"));
 
+    //Partie 2 :
+
+
+    //Partie 3 :
+    val output = new FileOutputStream("result-json.csv")
+    Json2Csv.convert(new File(args(0)), output) match {
+      case Right(nb) => println(s"$nb CSV lines written to 'result-json.csv'")
+      case Left(e)  => println(s"Something bad happened $e")
+    }
   }
 
 

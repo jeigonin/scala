@@ -4,7 +4,7 @@
 		module="csv_2.12"
 		revision="0.1"
 		status="integration"
-		publication="20190407210847"
+		publication="20190407211542"
 	>
 		<description>
 		CSV
@@ -34,5 +34,6 @@
 		<dependency org="org.scala-lang" name="scala-library" rev="2.12.8" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="com.fasterxml.jackson.module" name="jackson-module-scala_2.12" rev="2.2.2" conf="compile->default(compile)"/>
 		<dependency org="com.fasterxml.jackson.core" name="jackson-databind" rev="2.2.2" conf="compile->default(compile)"/>
+		<dependency org="com.github.agourlay" name="json-2-csv_2.12" rev="0.4.2" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

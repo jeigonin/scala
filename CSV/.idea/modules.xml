@@ -10,6 +10,8 @@
       <module fileurl="file://$PROJECT_DIR$/../lib/jackson-dataformats-text/jackson-dataformats-text.iml" filepath="$PROJECT_DIR$/../lib/jackson-dataformats-text/jackson-dataformats-text.iml" />
       <module fileurl="file://$PROJECT_DIR$/../lib/jackson-module-scala/.idea/modules/jackson-module-scala.iml" filepath="$PROJECT_DIR$/../lib/jackson-module-scala/.idea/modules/jackson-module-scala.iml" />
       <module fileurl="file://$PROJECT_DIR$/../lib/jackson-module-scala/.idea/modules/jackson-module-scala-build.iml" filepath="$PROJECT_DIR$/../lib/jackson-module-scala/.idea/modules/jackson-module-scala-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../lib/json-2-csv/.idea/modules/json-2-csv.iml" filepath="$PROJECT_DIR$/../lib/json-2-csv/.idea/modules/json-2-csv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../lib/json-2-csv/.idea/modules/json-2-csv-build.iml" filepath="$PROJECT_DIR$/../lib/json-2-csv/.idea/modules/json-2-csv-build.iml" />
     </modules>
   </component>
 </project>

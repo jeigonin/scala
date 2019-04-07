@@ -24,5 +24,6 @@
     <orderEntry type="library" exported="" name="sbt: com.fasterxml.jackson.module:jackson-module-jsonSchema:2.9.8:jar" level="project" />
     <orderEntry type="library" exported="" name="sbt: com.fasterxml.jackson.module:jackson-module-paranamer:2.9.8:jar" level="project" />
     <orderEntry type="module" module-name="jackson-dataformat-csv" exported="" />
+    <orderEntry type="module" module-name="json-2-csv" exported="" />
   </component>
 </module>
